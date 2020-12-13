@@ -11,7 +11,7 @@ else
     mv /vendor/etc/audio_platform_info_ahannah.xml /vendor/etc/audio_platform_info.xml
     mv /vendor/etc/mixer_paths_ahannah.xml /vendor/etc/mixer_paths.xml
     mv /vendor/etc/sensors/sensor_def_qcomdev_ahannah.conf /vendor/etc/sensors/sensor_def_qcomdev.conf
-    rm -rf /vendor/app/LineageActions
+    rm -rf /vendor/app/MotoActions
     rm /vendor/etc/permissions/android.hardware.sensor.compass.xml
     rm /vendor/etc/permissions/android.hardware.sensor.gyroscope.xml
 fi
