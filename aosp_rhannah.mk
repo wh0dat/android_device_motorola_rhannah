@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/motorola/hannah/device.mk)
+$(call inherit-product, device/motorola/rhannah/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -14,8 +14,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_hannah
-PRODUCT_DEVICE := hannah
+PRODUCT_NAME := aosp_rhannah
+PRODUCT_DEVICE := rhannah
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto e5 plus
 PRODUCT_MANUFACTURER := motorola

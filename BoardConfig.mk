@@ -7,10 +7,10 @@
 # Inherit from msm8937-common
 -include device/motorola/msm8937-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/hannah
+DEVICE_PATH := device/motorola/rhannah
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hannah,hannah_t,ahannah,rhannah
+TARGET_OTA_ASSERT_DEVICE := rhannah
 
 # Display
 TARGET_SCREEN_DENSITY := 320

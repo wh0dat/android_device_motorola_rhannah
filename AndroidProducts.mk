@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_hannah.mk
+    $(LOCAL_DIR)/aosp_rhannah.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_hannah-user \
-    aosp_hannah-userdebug \
-    aosp_hannah-eng
+    aosp_rhannah-user \
+    aosp_rhannah-userdebug \
+    aosp_rhannah-eng
